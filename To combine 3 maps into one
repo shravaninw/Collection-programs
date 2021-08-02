@@ -1,0 +1,15 @@
+//To combine 3 maps into one 
+void main() { 
+   Map A ={'name':'shra','age':'22'};
+  Map B={'address':'Chennai','Sex':'F'};
+  Map C={'phone no':'6789065435'};
+   print(A);
+  print(B);
+  print(C);
+  Map det=new Map();
+  det.addAll(A);
+  det.addAll(B);
+  det.addAll(C);
+  print(det);
+  
+}
