@@ -1,0 +1,10 @@
+//Sort in ascending order
+void main(){
+Map A = {'one': 1, 'two': 2, 'five':5, 'four': 4, 'three': 3};
+
+var sort = Map.fromEntries(
+    A.entries.toList()
+    ..sort((e1, e2) => e1.value.compareTo(e2.value)));
+    
+print(sort);
+}
