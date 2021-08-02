@@ -1,17 +1,18 @@
 
+
 void main(){
-  Map A=new Map();
+  Map<String,String> A=new Map<String,String>();
   A['First']='Shravani';
   A["Second"]='Sushmitha';
   A["Third"]='geetha';
   A['Four']='Siva';
-  Map B=new Map();
+  Map <String,String> B=new Map<String,String>();
   for(var i in A.keys)
   {
  
-    if(A[i].length>5)
+    if(A[i]!.length>5)
     {
-        B[i]=A[i];
+        B[i]=A[i].toString();
     }
   }
   
