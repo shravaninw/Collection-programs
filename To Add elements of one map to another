@@ -1,0 +1,8 @@
+//To Add elements of one map to another
+void main() { 
+   Map details ={'Usrname':'shra','Password':'1234'}; 
+   print(details); 
+  Map det=new Map();
+  det.addAll(details);
+  print(det);
+  
