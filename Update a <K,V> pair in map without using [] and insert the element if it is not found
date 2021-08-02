@@ -1,0 +1,12 @@
+void main(){
+  Map A=new Map();
+  A['First']='Hi';
+  A["Second"]='hello';
+  A["Third"]='bye';
+  for(var key in ['First','Second','Third','Four'])
+  {
+    A.putIfAbsent(key,()=>'Welcome');
+  }
+  
+  print(A);
+}
