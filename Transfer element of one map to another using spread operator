@@ -1,0 +1,8 @@
+//Transfer element of one map to another using spread operator
+void main() { 
+   Map A ={'First':1,'second':2};
+  Map B={...A};
+  print(B);
+
+ 
+}
