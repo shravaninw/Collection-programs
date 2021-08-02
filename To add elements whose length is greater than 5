@@ -1,0 +1,19 @@
+
+void main(){
+  Map A=new Map();
+  A['First']='Shravani';
+  A["Second"]='Sushmitha';
+  A["Third"]='geetha';
+  A['Four']='Siva';
+  Map B=new Map();
+  for(var i in A.keys)
+  {
+ 
+    if(A[i].length>5)
+    {
+        B[i]=A[i];
+    }
+  }
+  
+  print(B);
+}
