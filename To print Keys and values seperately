@@ -1,0 +1,8 @@
+//To Print Keys and values seperately 
+void main() { 
+   Map A ={'name':'shra','age':'22'};
+ 
+   print(A.keys);
+  print(A.values);
+ 
+}
